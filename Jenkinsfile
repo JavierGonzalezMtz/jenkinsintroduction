@@ -27,5 +27,10 @@ pipeline{
 				echo "Finished Deploying!"
 			}
 		}
+		stage('NewStage!'){
+			steps {
+				echo "I'm in staeg only for branch2!!"
+			}
+		}
 	}
 }
