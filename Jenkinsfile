@@ -17,13 +17,13 @@ pipeline{
 		}
 		stage('Testing'){
 			steps {
-				echo "I'm in stage Preparing!"
+				echo "I'm in stage Testing!"
 				echo "Finished testing"
 			}
 		}
 		stage('Deploying'){
 			steps {
-				echo "I'm in stage Preparing!"
+				echo "I'm in stage Deploying!"
 				echo "Finished Deploying!"
 			}
 		}
