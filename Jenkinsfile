@@ -23,11 +23,9 @@ pipeline{
 			steps {
 				echo "I'm in stage Build!"
 				sh '''
-					mkdir -p build
-					cd bin
 					chmod +x *.sh
-					cd ../build
-					cmake .
+					./start.sh
+					cmake ./sourcefiles
 					make
 				'''
 				echo "Finished building"
