@@ -1,0 +1,1 @@
+export GTEST_OUTPUT="xml:results/report"
