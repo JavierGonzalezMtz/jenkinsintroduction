@@ -24,7 +24,7 @@ pipeline{
 				echo "I'm in stage Build!"
 				sh '''
 					mkdir -p build
-					cd /bin
+					cd bin
 					chmod +x *.sh
 					cd ../build
 					cmake .
